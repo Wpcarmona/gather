@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+$color-primary: #395886;
+$color-secondary: #638ECB;
+$color-terciary:#8AAEE0;
+$color-quearter: #B1C9EF;
+$color-five: #D5DEEF;
+$color-six: #F0F3FA;
+$color-whiteSmoke: #F6F6F6;
+
+input{
+	background-color: $color-whiteSmoke; 
+	width: stretch; 
+	height: 50px; 
+	border-radius: 50px;  
+    border: none;
+    width: fill;
+	margin-top: 10px;  
+    color: black;
+    padding-left: 30px !important;
+}
+
+input:focus{
+	outline:0;
+	border: 1px solid $color-secondary;
+    overflow-y: scroll;
+    background-color: white;
+}
+input:-internal-autofill-selected {
+    background-color: white;
+}
