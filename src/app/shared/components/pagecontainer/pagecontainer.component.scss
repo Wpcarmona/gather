@@ -1,0 +1,26 @@
+.page-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .page-container {
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .page-container {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .page-container {
+      padding: 20px;
+    }
+  }
+  
